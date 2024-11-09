@@ -286,3 +286,11 @@ console.log(item);
 
 console.log(item.toString());
 console.log("hey every one ");
+
+let newbtn=document.createElement("button");
+newbtn.innerText="click";
+
+newbtn.style.backgroundColor="red";
+newbtn.style.color="white";
+document.querySelector("body").prepend(newbtn);
+ 
